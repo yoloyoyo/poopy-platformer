@@ -1,0 +1,12 @@
+{
+    "%_b24O(,TA": {
+        "data": "hwQQABAAAAAAAAAAAPAAAAAAAAAA/w8AAAAAAADwAAAAAADg7vAAAAAA4O7u/gAAAODu7u7uAAAA7u7u7u4AAODu7u7u7v//4O7u/u7uAPAA4O7uPu4AAADg7v7u7v//AADg7u7uAPAAAADu7v4AAAAAAODu8AAAAAAAAAD/DwAAAAAAAPAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "Poopman"
+    },
+    "*": {
+        "mimeType": "image/x-mkcd-f4",
+        "dataEncoding": "base64",
+        "namespace": "myImages"
+    }
+}
