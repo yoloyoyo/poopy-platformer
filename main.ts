@@ -41,6 +41,46 @@ function createLevel () {
             `, SpriteKind.Door)
         scene.place(value, portal)
     }
+    for (let value of scene.getTilesByType(2)) {
+        scene.setTile(2, img`
+            5 5 4 2 2 2 2 2 4 2 2 2 2 4 4 5 
+            5 4 2 2 2 2 2 4 4 4 4 4 4 4 5 5 
+            4 2 2 4 2 4 4 4 5 5 5 5 5 5 4 4 
+            2 2 2 2 4 4 5 5 4 4 4 5 4 5 4 4 
+            4 4 2 4 4 5 5 4 4 2 2 4 5 4 4 2 
+            4 4 2 4 5 4 4 2 2 2 2 4 5 4 4 2 
+            2 2 4 5 4 4 2 2 2 4 4 2 5 5 4 2 
+            4 4 5 5 4 2 2 2 2 4 4 2 4 5 5 4 
+            5 5 5 4 2 2 4 2 2 2 2 2 4 5 5 5 
+            4 5 4 4 2 2 2 2 2 2 2 2 4 5 4 4 
+            4 5 5 2 2 4 2 2 2 4 2 2 4 5 5 4 
+            5 5 4 2 4 2 4 2 2 2 2 4 5 5 5 5 
+            4 5 5 4 2 4 2 2 2 2 2 4 5 4 4 4 
+            4 5 5 5 2 2 2 4 4 4 5 5 5 4 2 2 
+            4 5 5 4 5 5 5 5 5 5 5 4 4 2 2 2 
+            4 5 5 4 4 4 4 4 4 4 4 2 2 2 4 4 
+            `, true)
+    }
+    for (let value of scene.getTilesByType(5)) {
+        scene.setTile(5, img`
+            d 1 d d d d d d d 1 d d d d d d 
+            d 1 d d d d d d d 1 d d d d d d 
+            d 1 d d d d d d d 1 d d d d d d 
+            1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+            d d d d d 1 d d d d d d d 1 d d 
+            d d d d d 1 d d d d d d d 1 d d 
+            d d d d d 1 d d d d d d d 1 d d 
+            1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+            d 1 d d d d d d d 1 d d d d d d 
+            d 1 d d d d d d d 1 d d d d d d 
+            d 1 d d d d d d d 1 d d d d d d 
+            1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+            d d d d d 1 d d d d d d d 1 d d 
+            d d d d d 1 d d d d d d d 1 d d 
+            d d d d d 1 d d d d d d d 1 d d 
+            1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+            `, true)
+    }
 }
 let portal: Sprite = null
 let Poopman = sprites.create(assets.image`Poopman`, SpriteKind.Player)
